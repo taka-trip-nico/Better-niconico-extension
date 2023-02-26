@@ -11,6 +11,14 @@
             "matches": [
                 "https://www.nicovideo.jp/tag/*"
             ]
+        },
+        {
+            "css": [
+                "css/video_top.css"
+            ],
+            "matches": [
+                "https://www.nicovideo.jp/video_top*"
+            ]
         }
     ]
 }

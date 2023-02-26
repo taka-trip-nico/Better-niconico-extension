@@ -1,0 +1,23 @@
+.HeaderContainer {
+    flex-wrap: wrap !important;
+    height: 124px !important;
+    justify-content: space-around !important;
+    margin: 24px auto 10px auto !important;
+}
+
+.HeaderContainer-logo {
+    margin-right: 20px !important;
+}
+
+.SearchBox {
+    width: 784px !important;
+}
+
+.SearchBox-form input{
+    width: -webkit-fill-available !important;
+}
+
+.HeaderContainer-ads {
+    height: 60px !important;
+    margin-top: 10px !important;
+}
