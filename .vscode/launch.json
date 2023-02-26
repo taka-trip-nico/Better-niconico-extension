@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "https://www.nicovideo.jp/tag/%E7%B4%B2%E6%98%9F%E3%81%82%E3%81%8B%E3%82%8A%20%E6%AD%8C%E3%81%86%E3%83%9C%E3%82%A4%E3%82%B9%E3%83%AD%E3%82%A4%E3%83%89%20OR%20VOCALOID",
+            "runtimeArgs": ["--load-extension=${workspaceFolder}"],
+            "runtimeExecutable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+        }
+    ]
+}

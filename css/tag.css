@@ -1,0 +1,32 @@
+.pageLogo {
+    width: 54px !important;
+}
+
+.logo {
+    display: none !important;
+}
+
+.siteHeader {
+    margin: 0 auto !important;
+    width: 1024px !important;
+}
+
+.videoSearch {
+    width: 940px !important;
+}
+
+.inputText {
+    width: 903px !important;
+}
+
+.clear-button-inner-tag {
+    left: 885px !important;
+}
+
+.notice {
+    display: contents !important;
+}
+
+#web_pc_top {
+    margin-top: 4px !important;
+}
