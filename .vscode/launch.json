@@ -5,7 +5,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "https://www.nicovideo.jp/video_top",
+            "url": "https://www.nicovideo.jp",
             "runtimeArgs": ["--load-extension=${workspaceFolder}"],
             "runtimeExecutable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
         }

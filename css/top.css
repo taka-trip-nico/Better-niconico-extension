@@ -1,0 +1,21 @@
+.HeaderContainer-main {
+    padding: 8px 16px 8px 0 !important;
+    width: -webkit-fill-available !important;
+}
+
+.HeaderContainer-mainUpper {
+    flex-direction: column !important;
+}
+
+.SearchContainer{
+    padding-left: 0 !important;
+}
+
+.CrossSearch-form {
+    width: -webkit-fill-available !important;
+}
+
+.CrossSearch-input {
+    width: -webkit-fill-available !important;
+    margin-right: 28px !important;
+}

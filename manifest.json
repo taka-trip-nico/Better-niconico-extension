@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Better NicoNico Extension",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "ニコニコのUIをなんかこういい感じにします",
     "content_scripts": [
         {
@@ -18,6 +18,14 @@
             ],
             "matches": [
                 "https://www.nicovideo.jp/video_top*"
+            ]
+        },
+        {
+            "css": [
+                "css/top.css"
+            ],
+            "matches": [
+                "https://www.nicovideo.jp/*"
             ]
         }
     ]
