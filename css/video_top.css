@@ -1,12 +1,17 @@
 .HeaderContainer {
     flex-wrap: wrap !important;
-    height: 124px !important;
+    height: initial !important;
     justify-content: space-around !important;
-    margin: 24px auto 10px auto !important;
+    /* margin: 10px auto 10px auto !important; */
 }
 
 .HeaderContainer-logo {
-    margin-right: 20px !important;
+    margin: 0 auto 0 0 !important;
+}
+
+.HeaderContainer-searchBox{
+    order: 3 !important;
+    margin: 5px 0 10px 0 !important;
 }
 
 .SearchBox {

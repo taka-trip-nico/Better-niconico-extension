@@ -3,8 +3,21 @@
     "name": "Better NicoNico Extension",
     "version": "0.0.3",
     "description": "ニコニコのUIをなんかこういい感じにします",
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "resource/*.png"
+            ],
+            "matches": [
+                "https://www.nicovideo.jp/*"
+            ]
+        }
+    ],
     "content_scripts": [
         {
+            "js": [
+                "script/tag.js"
+            ],
             "css": [
                 "css/tag.css"
             ],
@@ -26,6 +39,17 @@
             ],
             "matches": [
                 "https://www.nicovideo.jp/*"
+            ]
+        },
+        {
+            "js": [
+                "script/search.js"
+            ],
+            "css": [
+                "css/search.css"
+            ],
+            "matches": [
+                "https://www.nicovideo.jp/search/*"
             ]
         }
     ]
