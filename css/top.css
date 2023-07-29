@@ -1,5 +1,6 @@
 .HeaderContainer-main {
-    padding: 8px 16px 8px 0 !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
     width: -webkit-fill-available !important;
 }
 
@@ -18,4 +19,8 @@
 .CrossSearch-input {
     width: -webkit-fill-available !important;
     margin-right: 28px !important;
+}
+
+.HeaderContainer-decorationSide {
+    margin: 8px 0 !important;
 }
